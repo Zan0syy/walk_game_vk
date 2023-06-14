@@ -37,7 +37,7 @@ function move_up(to_up){
 function move_down(to_down){
     up+=step;
 
-    if(up <=72){
+    if(up <=65){
         obj_pos.style.top =up+"%";
         console.log('k')
     } else{
