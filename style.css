@@ -1,0 +1,48 @@
+.firs_obj {
+    position: absolute;
+    top:2%;
+    left:2%;
+    width: 25px;
+    height: 25px;
+    background: red;
+}
+
+button {
+    position: absolute;
+    margin-top: 12.5%;
+}
+
+.arena {
+    
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.control_panel{
+    position: absolute;
+    width:35%;
+    height:25%;
+    left:30%;
+    bottom:10%;
+}
+
+.to_right{
+    right:15%;
+    bottom:50%;
+}
+
+.to_left{
+    left:15%;
+    bottom:50%;
+}
+
+.to_down{
+    left:30%;
+    bottom:25%;
+    width:40%
+}
+.to_up{
+    left:30%;
+    top:-15%;
+    width:40%
+}

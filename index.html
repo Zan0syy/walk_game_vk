@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color:#00ffff">
+<div class="arena" id="arena">
+    <div id="first" class="firs_obj"></div>   
+</div>
+
+<div class="control_panel">
+<button onclick="move_right(this)" id="to_right" class="to_right">
+    to right
+</button>
+<button onclick="move_left(this)" id="to_left" class="to_left">
+    to left
+</button>
+<button onclick="move_up(this)" id="to_up" class="to_up">
+    to up
+</button>
+<button onclick="move_down(this)" id="to_down" class="to_down">
+    to down
+</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
