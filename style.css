@@ -1,6 +1,6 @@
 .firs_obj {
     position: absolute;
-    top:2%;
+    top:5%;
     left:2%;
     width: 25px;
     height: 25px;
@@ -45,4 +45,19 @@ button {
     left:30%;
     top:-15%;
     width:40%
+}
+
+.ball {
+    position: absolute;
+    left:4%;
+    top:7%;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background-color:darkslateblue;
+}
+.nn{
+    position:absolute;
+    left: 10%;
+    top:-25%;
 }
