@@ -7,25 +7,42 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body style="background-color:#00ffff">
+<span style="width: 25%;">Собрано: <span id="count">0</span></span>
+<div class="timer"><span>осталось времени: <span class="time" id="time">30</span></span></div>
 <div class="arena" id="arena">
-    <div id="first" class="firs_obj"></div>   
+    <div id="first" class="firs_obj"></div>  
+    <div class="ball" id="ball"></div> 
 </div>
 
 <div class="control_panel">
-<button onclick="move_right(this)" id="to_right" class="to_right">
+<button onclick="move_right(this, count)" id="to_right" class="to_right">
     to right
 </button>
-<button onclick="move_left(this)" id="to_left" class="to_left">
+<button onclick="move_left(this, count)" id="to_left" class="to_left">
     to left
 </button>
-<button onclick="move_up(this)" id="to_up" class="to_up">
+<button onclick="move_up(this, count)" id="to_up" class="to_up">
     to up
 </button>
-<button onclick="move_down(this)" id="to_down" class="to_down">
+<button onclick="move_down(this, count)" id="to_down" class="to_down">
     to down
 </button>
 </div>
 
+<div id="game_over" class="game_over">
+    <div class="GO">
+    <h3 class="gameOver_text">К сожалению, Вы проиграли, но можете попробовать ещё раз</h3>
+    <button class="play"><a href="index.html">Попробовать ещё раз</a></button>    
+    </div>
+</div>
+
+<div id="game_win" class="game_win">
+    <div class="GO">
+        <h3 class="gameOver_text">Поздравляем, Вы победили!</h3>
+        <button class="play"><a href="index.html">Попробовать ещё раз</a></button>
+    </div>    
+</div>
 <script src="script.js"></script>
+
 </body>
 </html>

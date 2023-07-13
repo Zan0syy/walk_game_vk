@@ -1,6 +1,10 @@
+a{
+    text-decoration: none;
+    color:black;
+}
 .firs_obj {
     position: absolute;
-    top:2%;
+    top:5%;
     left:2%;
     width: 25px;
     height: 25px;
@@ -13,9 +17,12 @@ button {
 }
 
 .arena {
+    position: absolute;
+    border: 1px solid black;
+    width: 98%;
+    height:  50%;
+    top: 7%;
     
-    margin-top: 5%;
-    margin-left: 5%;
 }
 
 .control_panel{
@@ -45,4 +52,68 @@ button {
     left:30%;
     top:-15%;
     width:40%
+}
+
+.ball {
+    position: absolute;
+    left:4%;
+    top:7%;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background-color:darkslateblue;
+}
+.nn{
+    position:absolute;
+    left: 10%;
+    top:-25%;
+}
+
+.timer{
+    position: absolute;
+    text-align: right;
+    right:2%;
+    top: 2%;
+}
+
+.game_over{
+    display: none; 
+    position: absolute; 
+    background-color: black; 
+    width: 100%; 
+    height: 100%; 
+    left: 0%;
+    top: 0%;
+}
+
+.GO{
+    position: absolute;
+    top: 35%;
+    left:35%;
+    width: 30%;
+    height: 30%;
+    background-color:darkorchid;
+    border:1px solid black;
+}
+.gameOver_text{
+    color: bisque;
+    text-align: center;
+}
+.play{
+    position: absolute;
+    width: 30%;
+    height: 25%;
+    left: 35%;
+    bottom:5%;
+    border:1px solid blueviolet;
+}
+
+.game_win{
+    display: none; 
+    position: absolute; 
+    background-color: black; 
+    width: 100%; 
+    height: 100%; 
+    left: 0%;
+    top: 0%;
 }

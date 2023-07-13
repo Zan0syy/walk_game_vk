@@ -1,0 +1,34 @@
+body{
+    background-color:beige;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.start_menu_buttons{
+    background-color:blueviolet;
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    border:1px solid black;
+    top:40%;
+    left:40%;
+}
+.play{
+    position: absolute;
+    width: 30%;
+    left: 35%;
+    top:5%;
+    height: 25%;
+    border:1px solid blueviolet;
+}
+.about{
+    position: absolute;
+    width:40%;
+    left: 30%;
+    bottom: 5%;
+    height: 25%;
+    border:1px solid blueviolet;    
+}
